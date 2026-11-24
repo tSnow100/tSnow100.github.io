@@ -1,0 +1,32 @@
+# Dependencias y herramientas locales
+node_modules/
+package-lock.json
+.npm/
+
+# Salidas de herramientas de auditoría (sloplint / Hallmark, Lighthouse, capturas)
+.hallmark/
+lighthouse*/
+*.lighthouse.json
+screenshots/
+
+# Copias de seguridad y temporales
+*.backup*
+*.bak
+*.tmp
+*.orig
+*~
+
+# Credenciales y configuración local
+.env
+.env.*
+*.pem
+*.key
+.claude/settings.local.json
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
